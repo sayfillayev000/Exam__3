@@ -1,0 +1,1117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+
+img:hover {
+  transform: rotate(5600deg);
+  transition: 4s;
+}
+
+.contianer {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.background {
+  background: #0d0d2b;
+}
+
+header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+}
+header .header__logo > a {
+  width: 135px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+header .header__logo > a img {
+  width: 40px;
+  height: 40px;
+}
+header .header__logo > a h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin-left: 16px;
+}
+
+.header__end {
+  display: flex;
+  width: 560px;
+}
+.header__end .header__nav_Menu > ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header__end .header__nav_Menu > ul li > a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-left: 32px;
+}
+.header__end .header__right__Sign_In {
+  display: flex;
+  align-items: center;
+  width: 221px;
+  height: 52px;
+}
+.header__end .header__right__Sign_In a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-left: 56px;
+}
+.header__end .header__right__Sign_In div {
+  width: 1px;
+  height: 24px;
+  opacity: 0.3;
+  border: 1px solid #f2f2f2;
+  margin-left: 24px;
+}
+.header__end .header__right__Sign_In .header__button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  border: 0;
+  padding: 14px 32px;
+  background: #3671e9;
+  border-radius: 32px;
+  margin-left: 24px;
+}
+
+.Features {
+  background-color: #2b076e;
+  height: 1874px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.Features__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+.Features__Invest_Smart {
+  display: flex;
+  justify-content: space-between;
+  width: 1134px;
+  height: 427px;
+  padding-top: 100px;
+}
+.Features .Text {
+  width: 454px;
+  height: 219px;
+}
+.Features .Text h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.Features .Text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
+  margin-bottom: 32px;
+}
+.Features .Text button {
+  width: 162px;
+  height: 59px;
+  background: #3671e9;
+  border-radius: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  border: 0;
+}
+.Features .Chart {
+  width: 580px;
+  height: 427px;
+}
+.Features .Chart__Group_110 {
+  height: 298px;
+  background: #35068c;
+  border-radius: 16px;
+  padding: 40px;
+}
+.Features .Chart__Group_110 div {
+  display: flex;
+  align-items: center;
+}
+.Features .Chart__Group_110 div img {
+  width: 40px;
+  height: 40px;
+}
+.Features .Chart__Group_110 div div {
+  display: block;
+  padding-left: 16px;
+}
+.Features .Chart__Group_110 div div h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+}
+.Features .Chart__Group_110 div div div {
+  display: flex;
+  padding: 0;
+}
+.Features .Chart__Group_110 div div div h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.Features .Chart__Group_110 div div div h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #cfcfcf;
+  opacity: 0.7;
+  margin-left: 8px;
+}
+.Features .Chart__Group_110 div span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 0.01em;
+  color: #42ffff;
+  margin-left: 275px;
+}
+.Features .Chart__Group_110 .Chart__icon {
+  width: 500px;
+  height: 136px;
+  display: block;
+  margin-top: 24px;
+  align-items: flex-end;
+}
+.Features .Chart__Card_bounce_rate {
+  position: relative;
+  padding: 24px 16px;
+  width: 178px;
+  height: 184px;
+  background: #491f98;
+  -webkit-backdrop-filter: blur(125px);
+          backdrop-filter: blur(125px);
+  border-radius: 16px;
+  left: 64px;
+  bottom: 55px;
+}
+.Features .Chart__Card_bounce_rate h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.Features .Chart__Card_bounce_rate span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.Features .Chart__Card_bounce_rate h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+  margin-top: 16px;
+}
+.Features .Chart__Card_bounce_rate img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin-left: 7px;
+  top: 3px;
+}
+.Features .Chart__Card_visits_per_day {
+  position: relative;
+  padding: 21px 32px 16px 32px;
+  width: 169px;
+  height: 84px;
+  background: #491f98;
+  border-radius: 16px;
+  left: 355px;
+  bottom: 230px;
+}
+.Features .Chart__Card_visits_per_day h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.Features .Chart__Card_visits_per_day h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+}
+.Features .Detailed_Statistics {
+  padding-top: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 453px;
+}
+.Features .Detailed_Statistics img {
+  position: relative;
+  right: 120px;
+  width: 710px;
+  height: 453px;
+  background: linear-gradient(180deg, rgba(40, 5, 105, 0) 46.14%, rgba(51, 7, 133, 0.7) 100%);
+}
+.Features .Detailed_Statistics .Detailed_Statistics_itim {
+  width: 456px;
+  height: 247px;
+}
+.Features .Detailed_Statistics .Detailed_Statistics_itim h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.Features .Detailed_Statistics .Detailed_Statistics_itim p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
+  margin-bottom: 32px;
+}
+.Features .Detailed_Statistics .Detailed_Statistics_itim button {
+  align-items: center;
+  width: 162px;
+  height: 59px;
+  background: #3671e9;
+  border-radius: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  border: 0;
+}
+.Features .Grow_Profit {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 350px;
+  height: 334px;
+}
+.Features .Grow_Profit .Grow_Profit__info {
+  width: 380px;
+  height: 295px;
+}
+.Features .Grow_Profit .Grow_Profit__info h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.Features .Grow_Profit .Grow_Profit__info p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
+  margin-bottom: 32px;
+}
+.Features .Grow_Profit .Grow_Profit__info button {
+  width: 162px;
+  height: 59px;
+  background: #3671e9;
+  border-radius: 32px;
+  border: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+.Features .Grow_Profit .Grow_Profit__Table {
+  width: 600px;
+  height: 334px;
+  background: #35068c;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  border-radius: 16px;
+  padding-top: 40px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .Title {
+  display: flex;
+  justify-content: flex-end;
+  /*   width: 354px; */
+  height: 17px;
+  padding-right: 35px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .Title span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-left: 86px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .BTC {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  margin-top: 16px;
+  width: 521px;
+  height: 47px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .BTC__img {
+  width: 40px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .BTC div {
+  padding-left: 16px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .BTC div h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.Features .Grow_Profit .Grow_Profit__Table .BTC div h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+}
+.Features .Grow_Profit .Grow_Profit__Table .BTC h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f2f2f2;
+  margin-left: 72px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .BTC__icon {
+  margin-left: 72px;
+  margin-right: 8px;
+  width: 16px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .BTC span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8fffbe;
+}
+.Features .Grow_Profit .Grow_Profit__Table .ETH {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 610px;
+  height: 79px;
+  background: #4610ad;
+  border-radius: 16px;
+  position: relative;
+  right: 72px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .ETH__img {
+  width: 40px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .ETH div {
+  padding-left: 16px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .ETH div h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.Features .Grow_Profit .Grow_Profit__Table .ETH div h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+}
+.Features .Grow_Profit .Grow_Profit__Table .ETH h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f2f2f2;
+  margin-left: 72px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .ETH__icon {
+  margin-left: 72px;
+  margin-right: 8px;
+  width: 16px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .ETH span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ff7676;
+}
+.Features .Grow_Profit .Grow_Profit__Table .LTC {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  width: 523px;
+  height: 47px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .LTC__img {
+  width: 40px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .LTC div {
+  padding-left: 16px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .LTC div h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.Features .Grow_Profit .Grow_Profit__Table .LTC div h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+}
+.Features .Grow_Profit .Grow_Profit__Table .LTC h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f2f2f2;
+  margin-left: 72px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .LTC__icon {
+  margin-left: 72px;
+  margin-right: 8px;
+  width: 16px;
+}
+.Features .Grow_Profit .Grow_Profit__Table .LTC span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8fffbe;
+}
+
+.Start_mining {
+  padding-top: 88px;
+  height: 392px;
+  background: linear-gradient(180deg, #2b076e 0%, #0d0d2b 100%);
+}
+.Start_mining__itim {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 216px;
+  background-color: #3671e9;
+  border-radius: 16px;
+  padding: 48px;
+}
+.Start_mining__itim .Start_mining__left h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.Start_mining__itim .Start_mining__left p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.Start_mining__itim form {
+  width: 566px;
+  height: 55px;
+}
+.Start_mining__itim form input {
+  width: 123px;
+  height: 28px;
+  border: 0;
+  background-color: #3671e9;
+}
+.Start_mining__itim form input::-moz-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.Start_mining__itim form input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.Start_mining__itim form button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #0d0d2b;
+  border: 0;
+  width: 152px;
+  height: 55px;
+  background: #ffffff;
+  border-radius: 32px;
+  margin-left: 280px;
+}
+.Start_mining__itim form .line {
+  width: 374px;
+  height: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.footer {
+  background: #0d0d2b;
+  padding-bottom: 80px;
+}
+
+.footer__div {
+  /*  display: flex; */
+}
+
+.footer__holder {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__holder ul {
+  margin-left: 100px;
+}
+.footer__holder ul > li > a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38px;
+  color: #f2f2f2;
+}
+.footer__holder ul > li > a > strong {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.footer__name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.footer__logo > a {
+  display: flex;
+  align-items: center;
+}
+.footer__logo > a img {
+  margin-right: 16px;
+}
+
+.footer__payment .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.footer__cards img {
+  margin-left: 24px;
+}
+
+.footer__end {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__end p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.end__right > a > img {
+  margin-left: 35px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.hero__left {
+  width: 588px;
+  height: 468px;
+  margin-top: 140px;
+}
+.hero__left .hero__info {
+  width: 365px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 11px 4px 4px;
+}
+.hero__left .hero__info span {
+  width: 113px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 32px;
+  padding: 8px 16px;
+}
+.hero__left .hero__info p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.hero__left h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  color: #ffffff;
+}
+.hero__left p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
+}
+.hero__left button {
+  margin-top: 32px;
+  width: 202px;
+  height: 64px;
+  background: #3671e9;
+  border-radius: 32px;
+  border: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 16px;
+}
+.hero__left button img {
+  margin-left: 24px;
+}
+.hero__right__img {
+  margin-top: 50px;
+  width: 604px;
+  height: 585.15px;
+}
+
+.Why_CRAPPO {
+  padding-bottom: 219px;
+}
+.Why_CRAPPO .Numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Why_CRAPPO .Numbers div {
+  display: flex;
+  justify-content: space-between;
+}
+.Why_CRAPPO .Numbers div img {
+  width: 80px;
+  height: 80px;
+  margin-right: 24px;
+}
+.Why_CRAPPO .Numbers div div {
+  display: block;
+}
+.Why_CRAPPO .Numbers div div h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.Why_CRAPPO .Numbers div div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
+}
+.Why_CRAPPO .Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.Why_CRAPPO .Content .Content__img {
+  width: 650px;
+  height: 473px;
+}
+.Why_CRAPPO .Content .Content__info {
+  width: 480px;
+  height: 318.89px;
+}
+.Why_CRAPPO .Content .Content__info h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.Why_CRAPPO .Content .Content__info p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
+  margin-bottom: 31px;
+}
+.Why_CRAPPO .Content .Content__info button {
+  background: #3671e9;
+  border-radius: 32px;
+  width: 146px;
+  height: 59px;
+  padding: 16px 24px;
+  border: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+.Why_CRAPPO h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+.Why_CRAPPO p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #e0e0e0;
+}
+
+.color {
+  background: linear-gradient(180deg, #f8f9fb 0%, #fafbff 100%);
+}
+
+.Trade_securely {
+  background: linear-gradient(180deg, #f8f9fb 0%, #fafbff 100%);
+  padding-bottom: 100px;
+}
+.Trade_securely .Trade_securely__h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: #0d0d2b;
+  margin-bottom: 64px;
+}
+
+.Calculate {
+  position: relative;
+  bottom: 155px;
+  margin: 0 auto;
+  width: 942px;
+  background: #fbfcfe;
+  border-radius: 16px;
+  filter: drop-shadow(0px 20px 200px rgba(57, 23, 119, 0.05));
+  background: #fbfcfe;
+  border-radius: 16px;
+}
+.Calculate .Calculate__top {
+  padding: 62px 48px 48px 48px;
+}
+.Calculate .Calculate__top form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Calculate .Calculate__top form input {
+  width: 403px;
+  height: 38px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  border: 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.Calculate .Calculate__top form input::-moz-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #0d0d2b;
+}
+.Calculate .Calculate__top form input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #0d0d2b;
+}
+.Calculate .Calculate__top form select {
+  width: 200px;
+  height: 38px;
+  border: 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.Calculate .Calculate__top form button {
+  width: 147px;
+  height: 59px;
+  background: #3671e9;
+  border-radius: 32px;
+  border: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+.Calculate .Calculate__botton {
+  background: #ffffff;
+  box-shadow: 0px 80px 40px #bfbdc3;
+  border-radius: 0px 0px 16px 16px;
+  padding: 48px;
+}
+.Calculate .Calculate__botton h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #3671e9;
+  margin-bottom: 16px;
+}
+.Calculate .Calculate__botton h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #0d0d2b;
+  margin-bottom: 4px;
+}
+.Calculate .Calculate__botton p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #828282;
+}
+
+.Cryptocurrencies {
+  display: flex;
+  justify-content: space-between;
+}
+.Cryptocurrencies .Cryptocurrencies__itim:hover {
+  background: #2b076e;
+}
+.Cryptocurrencies .Cryptocurrencies__itim:hover h1 {
+  color: #FFFFFF;
+}
+.Cryptocurrencies .Cryptocurrencies__itim:hover p {
+  color: #FFFFFF;
+}
+.Cryptocurrencies .Cryptocurrencies__itim {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  width: 350px;
+  height: 433px;
+  -webkit-backdrop-filter: blur(125px);
+          backdrop-filter: blur(125px);
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0px 40px 40px #bbbabc;
+  border-radius: 16px;
+}
+.Cryptocurrencies .Cryptocurrencies__itim .logos_bitcoin {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.Cryptocurrencies .Cryptocurrencies__itim h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  text-align: center;
+  color: #0D0D2B;
+  margin-bottom: 16px;
+}
+.Cryptocurrencies .Cryptocurrencies__itim h1 .h1__span {
+  width: 36px;
+  height: 27px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.Cryptocurrencies .Cryptocurrencies__itim p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #828282;
+}
+.Cryptocurrencies .Cryptocurrencies__itim button {
+  display: flex;
+  align-items: center;
+  width: 205px;
+  height: 64px;
+  background: #3671e9;
+  border-radius: 32px;
+  border: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 24px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+.Cryptocurrencies .Cryptocurrencies__itim button img {
+  width: 32px;
+  height: 32px;
+  margin-left: 24px;
+}/*# sourceMappingURL=main.css.map */

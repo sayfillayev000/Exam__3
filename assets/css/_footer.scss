@@ -1,0 +1,75 @@
+.footer {
+  background: #0d0d2b;
+  padding-bottom: 80px;
+}
+.footer__div {
+  /*  display: flex; */
+}
+.footer__holder {
+  display: flex;
+  justify-content: space-between;
+  ul {
+    margin-left: 100px;
+  }
+  ul > li > a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color: #f2f2f2;
+  }
+  ul > li > a > strong {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+}
+.footer__name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.footer__logo > a {
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 16px;
+  }
+}
+.footer__payment {
+  .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    color: #ffffff;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
+}
+.footer__cards{ 
+    img{
+       margin-left: 24px;
+    }
+}
+.footer__end{
+    display: flex;
+    justify-content: space-between;
+    p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px; 
+        letter-spacing: 0.01em;
+        color: #FFFFFF; 
+    }
+}
+.end__right>a>img{
+margin-left: 35px;
+}

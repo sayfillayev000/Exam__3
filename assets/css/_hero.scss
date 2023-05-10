@@ -1,0 +1,362 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  &__left {
+    width: 588px;
+    height: 468px;
+    margin-top: 140px;
+    .hero__info {
+      width: 365px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 11px 4px 4px;
+
+      span {
+        width: 113px;
+        height: 32px;
+        background: #ffffff;
+        border-radius: 32px;
+        padding: 8px 16px;
+      }
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        color: #ffffff;
+      }
+    }
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 76px;
+      color: #ffffff;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.01em;
+      color: #e0e0e0;
+    }
+    button {
+      margin-top: 32px;
+      width: 202px;
+      height: 64px;
+      background: #3671e9;
+      border-radius: 32px;
+      border: 0;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+      text-align: center;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      padding-left: 24px;
+      padding-right: 16px;
+      img {
+        margin-left: 24px;
+      }
+    }
+  }
+  &__right__img {
+    margin-top: 50px;
+    width: 604px;
+    height: 585.15px;
+  }
+}
+.Why_CRAPPO {
+  padding-bottom: 219px;
+  .Numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      img {
+        width: 80px;
+        height: 80px;
+        margin-right: 24px;
+      }
+      div {
+        display: block;
+        h1 {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 150%;
+          color: #ffffff;
+        }
+        p {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 0.01em;
+          color: #e0e0e0;
+        }
+      }
+    }
+  }
+  .Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+     margin-bottom: 100px;
+    .Content__img {
+      width: 650px;
+      height: 473px;
+    }
+    .Content__info {
+      width: 480px;
+      height: 318.89px;
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 150%;
+        color: #ffffff;
+        margin-bottom: 24px;
+      }
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        color: #e0e0e0;
+        margin-bottom: 31px;
+      }
+      button {
+        background: #3671e9;
+        border-radius: 32px;
+        width: 146px;
+        height: 59px;
+        padding: 16px 24px;
+        border: 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+  }
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+  }
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #e0e0e0;
+  }
+}
+.color {
+  background: linear-gradient(180deg, #f8f9fb 0%, #fafbff 100%);
+}
+.Trade_securely {
+  background: linear-gradient(180deg, #f8f9fb 0%, #fafbff 100%);
+  padding-bottom: 100px;
+  .Trade_securely__h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #0d0d2b;
+    margin-bottom: 64px;
+  }
+}
+.Calculate {
+  position: relative;
+  bottom: 155px;
+  margin: 0 auto;
+  width: 942px;
+  background: #fbfcfe;
+  border-radius: 16px;
+  filter: drop-shadow(0px 20px 200px rgba(57, 23, 119, 0.05));
+  background: #fbfcfe;
+  border-radius: 16px;
+  .Calculate__top {
+    padding: 62px 48px 48px 48px;
+    form {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      input {
+        width: 403px;
+        height: 38px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        border: 0;
+        border-bottom: 1px solid #e0e0e0;
+      }
+      input::placeholder {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        color: #0d0d2b;
+      }
+      select {
+        width: 200px;
+        height: 38px;
+        border: 0;
+        border-bottom: 1px solid #e0e0e0;
+      }
+      button {
+        width: 147px;
+        height: 59px;
+        background: #3671e9;
+        border-radius: 32px;
+        border: 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+  }
+  .Calculate__botton {
+    background: #ffffff;
+    box-shadow: 0px 80px 40px #bfbdc3;
+    border-radius: 0px 0px 16px 16px;
+    padding: 48px;
+    h4 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #3671e9;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      color: #0d0d2b;
+      margin-bottom: 4px;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.01em;
+      color: #828282;
+    }
+  }
+}
+.Cryptocurrencies {
+  display: flex;
+  justify-content: space-between;
+  .Cryptocurrencies__itim:hover {
+    background: #2b076e;
+    h1{
+      color: #FFFFFF;
+    }
+    p{
+      color: #FFFFFF;
+    }
+  }
+  .Cryptocurrencies__itim {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    width: 350px;
+    height: 433px;
+    backdrop-filter: blur(125px);
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0px 40px 40px #bbbabc;
+    border-radius: 16px;
+    .logos_bitcoin {
+      width: 80px;
+      height: 80px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 48px;
+    }
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 150%;
+      text-align: center;
+      color: #0D0D2B;
+      margin-bottom: 16px;
+      .h1__span {
+        width: 36px;
+        height: 27px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #ffffff;
+        opacity: 0.7;
+      }
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: #828282;
+    }
+    button {
+      display: flex;
+      align-items: center;
+      width: 205px;
+      height: 64px;
+      background: #3671e9;
+      border-radius: 32px;
+      border: 0;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+      text-align: center;
+      color: #ffffff;
+      padding-left: 24px;
+      padding-right: 16px;
+      margin: 0 auto;
+      img {
+        width: 32px;
+        height: 32px;
+        margin-left: 24px;
+      }
+    }
+  }
+}
